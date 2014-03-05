@@ -3,10 +3,12 @@ layout: default
 title: Gilles Bertaux - Digital Planner - Blog
 ---
 
-<div id="wrapper-post">     
+<div id="wrapper-post"> 
+	  {% for post in paginator.posts %}    
       <ul class="posts">
-      	{% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span><h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>{{ post.excerpt }}</li>
-        {% endfor %}
+        <li><span>{{ post.date | date_to_string }}</span><h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>{{ post.excerpt }}</li>
+
+        <hr>
       </ul>
+      {% endfor %}
 </div>

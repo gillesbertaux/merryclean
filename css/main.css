@@ -115,10 +115,14 @@ header img {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+@media screen and (max-width: 841px) {
+    .title { line-height: 1.5em; }
+}
+
 hr {
     display: block;
+    width: 100%;
     margin: 30px auto 30px;
-    width: 4.5em;
     border: 0;
     border-bottom: 1px solid #F0F0F0;
 }
@@ -175,6 +179,13 @@ footer {
   font-size: 0.8em;
 }
 
+.pagination {
+  text-align: center;
+}
+
+.previous, .page_number {
+  margin-right: 20px;
+}
 
 /* ==============================================================================
     POST - SINGLE
