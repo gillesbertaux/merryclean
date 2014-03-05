@@ -7,3 +7,4 @@ baseurl: /blog-jekyll/
 url: http://gillesbertaux.github.io
 paginate: 5
 paginate_path: 'page:num'
+destination: _site/
