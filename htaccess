@@ -1,0 +1,31 @@
+---
+layout: none
+permalink: .htaccess
+---
+
+# Security
+Options All -Indexes
+Options +FollowSymLinks
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L]
+
+
+# Gzip JS ans CSS
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
+
+
+# Cache - openweb.eu.org/articles/performances_avancees_sites_internet
+<FilesMatch "\.(js|css|gif|jpg|jpeg|png|svg|ico)$">
+Header unset Cookie
+Header unset Set-Cookie
+Header set Cache-Control "max-age=31536000"
+Header set vary  "Accept-Encoding"
+Header append vary "User-Agent"
+Header append Cache-Control "public" 
+Header append Connection "Keep-Alive"
+Header append Keep-Alive "timeout=5, max=100"
+FileETag None
+</FilesMatch>

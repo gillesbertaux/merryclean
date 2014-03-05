@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Language" content="fr"> 
+        <meta name="google-site-verification" content="dP8o9sKNCibdnxzpaDA0blhIHptcacqhvKiVzYIdGME" />
+        <meta name="description" content="Welcome to my blog. My name is Gilles Bertaux, I live in Paris, I am a Digital Planner.">
+        <meta name="viewport" content="width=device-width" />
+        <meta property='og:locale' content='fr_FR'/>
+        <meta property='og:title' content='Gilles Bertaux Blog | Digital Planner & Étudiant HETIC'/>
+        <meta property='og:description' content='Welcome to my blog. My name is Gilles Bertaux, I live in Paris, I am a Digital Planner.'/>
+        <meta property='og:url' content='http://blog.gillesbertaux.com'/>
+        <meta property='og:site_name' content='Gilles Bertaux Blog | Digital Planner & Étudiant HETIC'/>
+        <meta property='og:type' content='website'/>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="author" href="https://plus.google.com/u/0/+GillesBertaux/" />
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
+    </head>
+
+    <body>
+
+    <div id="progressbar"></div>
+
+    <main class="wrapper">
+
+    	<div class="wrapper-nav">
+
+	    	<ul class="nav">
+	    		{% if page.previous.url %} 
+	    		<li><a href="{{ site.baseurl }}{{page.previous.url}}">&laquo; Previous post</a></li>
+	   			{% endif %} 
+	   			<li><a href="{{ site.baseurl }}">Home</a></li>
+	   			{% if page.next.url %} 
+	   			<li><a href="{{ site.baseurl }}{{page.next.url}}">Next post &raquo;</a></li>
+	   			{% endif %} 
+	   		</ul>
+
+   		</div>
+
+   		<hr>
+
+		<p class="meta">{{ page.date | date_to_string }}</p>
+
+		<h1 class="post-title-single">{{ page.title }}</h1>
+
+		<article class="post-content">
+		{{ content }}
+		</artile>
+
+		<div class="share">
+
+		<a href="https://twitter.com/share" class="twitter-share-button" data-via="Gilles_Bertaux" data-dnt="true">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		<a href="https://news.ycombinator.com/submit" class="hn-button" data-count="horizontal" data-style="twitter">Vote on Hacker News</a>
+		<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+
+		</div>
+
+		<hr>
+
+		{% include footer.html %}
+
+	</main>
+
+	</body>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src='{{ site.baseurl }}javascripts/main.min.js'></script>
+</html>
+
+
