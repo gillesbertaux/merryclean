@@ -1,0 +1,5 @@
+name: Gilles Bertaux - Digital Planner
+markdown: redcarpet
+pygments: true
+timezone: Europe/Paris
+permalink: /:title.html
