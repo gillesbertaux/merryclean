@@ -1,5 +1,7 @@
 # Merryclean - Jekyll Template
 
+[See Demo](http://gillesbertaux.github.io/Merryclean)
+
 - Responsive
 - Clean
 - Blogging ready
