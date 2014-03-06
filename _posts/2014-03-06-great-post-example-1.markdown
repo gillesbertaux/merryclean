@@ -1,8 +1,8 @@
 --
 layout: post
-title:  "Great Post Example 1"
+title:  "Great Post Example 2"
 date:   2014-03-06 09:00:19
-permalink: /great-post-example-1.html
+permalink: /great-post-example-2.html
 excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, pariatur, impedit, modi, magnam architecto deserunt rem mollitia quaerat in porro odit ducimus cum similique? Inventore est qui amet cupiditate veritatis?
 ---
 
