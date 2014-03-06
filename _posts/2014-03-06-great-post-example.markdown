@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Great Post Example-2"
+title:  "Great Post Example"
 date:   2014-03-06 09:00:19
-permalink: /great-post-example-2.html
 excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, pariatur, impedit, modi, magnam architecto deserunt rem mollitia quaerat in porro odit ducimus cum similique? Inventore est qui amet cupiditate veritatis?
 ---
-
 
 Cupcake ipsum dolor sit amet brownie lemon drops cookie. Cupcake croissant I love toffee cupcake. Apple pie caramels apple pie muffin cupcake apple pie. Jujubes ice cream jelly icing marshmallow wafer pie dragée. Chocolate bar gummies I love. Pie cheesecake tootsie roll pastry. Croissant sweet caramels marzipan icing brownie jelly. Brownie icing gingerbread. Sweet roll bear claw tiramisu ice cream croissant sugar plum. Icing lemon drops icing marshmallow. Applicake chocolate cheesecake cupcake unerdwear.com macaroon jelly-o sweet roll. Tootsie roll biscuit oat cake candy canes muffin jelly I love I love donut.
 
