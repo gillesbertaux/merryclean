@@ -1,4 +1,4 @@
-3--
+--
 layout: post
 title:  "Great Post Example 1"
 date:   2014-03-06 09:00:19
