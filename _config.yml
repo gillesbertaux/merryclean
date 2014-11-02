@@ -3,7 +3,7 @@ markdown: redcarpet
 pygments: true
 timezone: Europe/Paris
 permalink: /:title.html
-baseurl: /Merryclean/
+baseurl: /merryclean/
 url: http://gillesbertaux.github.io
 paginate: 5
 paginate_path: 'page:num'
