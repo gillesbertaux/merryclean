@@ -1,10 +1,21 @@
+<<<<<<< HEAD
 name: Merryclean
+=======
+name: Gilles Bertaux - Digital Planner
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 markdown: redcarpet
 pygments: true
 timezone: Europe/Paris
 permalink: /:title.html
+<<<<<<< HEAD
 baseurl: /merryclean/
 url: http://gillesbertaux.github.io
 paginate: 5
 paginate_path: 'page:num'
 destination: _site/
+=======
+baseurl: /blog-jekyll/
+url: http://gillesbertaux.github.io
+paginate: 5
+paginate_path: 'page:num'
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7

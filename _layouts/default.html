@@ -42,13 +42,25 @@
 
           <div class="pagination">
             {% if paginator.previous_page %}
+<<<<<<< HEAD
               <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
+=======
+              {% if paginator.previous_page == 1 %}
+              <a href="/" class="previous">Previous</a>
+              {% else %}
+              <a href="/page{{ paginator.previous_page_path }}" class="previous">Previous</a>
+              {% endif %}
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
             {% endif %}
 
             <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
             
             {% if paginator.next_page %}
+<<<<<<< HEAD
               <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
+=======
+              <a href="/page{{ paginator.next_page_path }}" class="next">Next</a>
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
               {% else %}
               <span class="next ">Next</span>
             {% endif %}

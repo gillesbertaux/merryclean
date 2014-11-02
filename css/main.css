@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 /* ==============================================================================
     Author name : Gilles Bertaux ; Mail : hello@gillesbertaux.com;
   ============================================================================== */
 
 
+=======
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 /*=============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -49,7 +52,11 @@ a {
 }
 
 a:hover {
+<<<<<<< HEAD
   color: #233b67;
+=======
+  color: rgb(219, 101, 101);
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 }
 
 /* ==============================================================================
@@ -61,7 +68,11 @@ a:hover {
     left: 0; 
     width: 0%;
     height: 4px; 
+<<<<<<< HEAD
     background: #233b67; 
+=======
+    background: rgb(219, 101, 101); 
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 }
 
 /* This is where I define the centered layout for every screen */
@@ -107,7 +118,11 @@ header img {
         display: block; 
         width: 110px; 
         height: 110px; 
+<<<<<<< HEAD
         border: 4px solid  #233b67; 
+=======
+        border: 4px solid  rgb(219, 101, 101); 
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
         border-radius: 100%; 
         background: #fff; 
         background-size: 100%; 
@@ -175,7 +190,11 @@ footer {
 }
 
 .post-title a:hover {
+<<<<<<< HEAD
   color: #233b67;
+=======
+  color: rgb(219, 101, 101);
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 }
 
 .posts span {
@@ -222,7 +241,11 @@ footer {
 }
 
 .nav li a:hover {
+<<<<<<< HEAD
   color: #233b67;
+=======
+  color: rgb(219, 101, 101);
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 }
 
 /* This is all about the post content */
@@ -250,7 +273,11 @@ footer {
 }
 
 .post-content a:hover {
+<<<<<<< HEAD
   color: #233b67;
+=======
+  color: rgb(219, 101, 101);
+>>>>>>> 3d9399eebd2f2ae20d933cc0700ddee5bed363f7
 } 
 
 .post-content pre {
