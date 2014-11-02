@@ -11,4 +11,6 @@
 
 Any remarks ? Get in touch with me on [Twitter](http://twitter.com/gilles_bertaux). You can also visit my [portfolio](http://gillesbertaux.com) to see my other projects. 
 
+**This template is under the MIT License (MIT)**
+
 
